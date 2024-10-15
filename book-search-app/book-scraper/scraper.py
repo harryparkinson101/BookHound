@@ -113,7 +113,7 @@ for book in all_books:
     print(f"Category: {book['category']}, Title: {book['title']}, Price: {book['price']}, Image URL: {book['image_url']}")
 
 # Save the data to a JSON file
-with open('books.json', 'w') as json_file:
+with open('/public/books.json', 'w') as json_file:
     json.dump(all_books, json_file, indent=4)
 
 print("Scraping completed. Data saved to 'books.json'.")
