@@ -1,0 +1,3 @@
+[submodule "book-search-app"]
+	path = book-search-app
+	url = https://github.com/harryparkinson101/BookHound/tree/main
